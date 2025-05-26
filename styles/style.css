@@ -1,0 +1,273 @@
+/* Global Styles (Desktop Default) */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../image/bgIndex.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+:root {
+    --mainBlack: #900C3F;
+    --title: raleway, sans-serif;
+    --fontBlack: rgb(77, 75, 75);
+    --heading: Berkshire Swash, cursive, serif;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover,
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+.main {
+    max-width: 1500px;
+    margin: auto;
+    background: black;
+}
+
+.logo img {
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.location {
+    padding: 9% 8%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location .address {
+    width: 100%;
+    max-width: 600px;
+    min-width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.location .address h1 {
+    font-size: 70px;
+}
+
+.location .address h4 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.location iframe {
+    height: 900px;
+    width: 1200px;
+    margin-left: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 0 30px 30px rgb(196,196,196);
+}
+
+.box {
+    width: 1400px;
+    height: 700px;
+    background-color: transparent;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    margin-top: 10%;
+    padding: 5% 0 3% 0;
+}
+
+.title h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+}
+
+.title p {
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+    padding: 7% 0 3% 0;
+}
+
+.sec1 {
+    padding: 9% 8%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec1 .poster {
+    height: 900px;
+    width: 600px;
+    background-color: black;
+    margin-left: 10px;
+    background: url(../image/model1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 0 30px 30px rgb(196,196,196);
+}
+
+.sec1 div:nth-child(3) {
+    min-width: 350px;
+    background: linear-gradient(to bottom, transparent, 80%, black), url('../image/laptop_model2.png');
+    /* Using background-position once */
+    background-position: 70%;
+    box-shadow: 0 30px 30px rgb(196,196,196);
+}
+
+.sec1 .content {
+    width: 100%;
+    max-width: 600px;
+    min-width: 450px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sec1 .content h5 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.sec1 .content h1 {
+    font-size: 70px;
+}
+
+.sec1 .content h4 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.sec1 .content p {
+    font-size: 40px;
+    line-height: 1.6em;
+    color: rgb(92,92,92);
+}
+
+.org-btn {
+    padding: 30px 35px;
+    background-color: var(--mainBlack);
+    border-radius: 30px;
+    font-size: 30px;
+    transition: all 0.3s;
+    color: antiquewhite;
+    display: inline-block;
+}
+
+.org-btn:hover {
+    background-color: #C70039;
+}
+
+.sec1 .org-btn {
+    padding: 25px 35px;
+    font-size: 40px;
+    width: 50%;
+    min-width: 400px;
+}
+
+.sec1 .org-btn:hover {
+    transform: translateY(10px);
+}
+
+.sec1 .poster {
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.sec1 .poster div {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+}
+
+.sec1 .poster div h1 {
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.sec1 .poster div h4 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.sec1.sec2 .poster {
+    font-size: 40px;
+    height: 600px;
+    width: 50%;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, transparent, 80%, black), url(../image/customer.jpg);
+    background-size: cover;
+    background-position: cover;
+    box-shadow: 0 30px 30px rgb(196,196,196);
+}
+
+.sec1.sec2 .content {
+    margin-left: 50px;
+    min-width: 45%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../image/footer.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 7% 0 3% 0;
+    margin-top: 5%;
+}
+
+footer h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+footer p {
+    font-size: 30px;
+}
+

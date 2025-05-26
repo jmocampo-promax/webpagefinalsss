@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+header{
+    background: #000;
+    height: 22vh;
+    min-height: 100px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.main{
+    max-width: 1500px;
+    margin: auto;
+    background: black;
+}
+
+.logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 6px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 5%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 1500px;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.contact-info {
+    padding-right: 50px;
+    border-right: 5px solid #b4b1b1;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.contact-info p{
+    font-size: 30px;
+}
+
+.contact-form iframe{
+    border-radius: 10px;
+    box-shadow: 0 30px 30px rgb(196,196,196);
+}
+
+.social-icons{
+    margin-top: 5%;
+}
+
+.social-icons a {
+    margin-right: 20px;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-form {
+    padding-left: 30px;
+    flex-grow: 1;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    font-size: 30px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.submit-btn {
+    background-color: #0073e6;
+    color: white;
+    padding: 30px 150px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+.submit-btn:hover {
+    background-color: #005bb5;
+}
+
+.hidden {
+    display: none;
+}
+
+#successMessage {
+    color: grey;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+
+footer{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../image/footer.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 7% 0 3% 0;
+    margin-top: 5%;
+}
+
+footer h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+footer p{
+    font-size: 30px;
+}

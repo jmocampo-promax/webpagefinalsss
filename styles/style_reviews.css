@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+header{
+    background: #000;
+    height: 22vh;
+    min-height: 100px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    min-height: 200px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.main{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 6px;
+}
+
+.review-container {
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 3%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    animation: multiGlow 2s infinite alternate;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    display: flex;
+}
+.review {
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+}
+.review:last-child {
+    border-bottom: none;
+}
+.review-header {
+    display: flex;
+    align-items: center;
+}
+.review-header img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+}
+.review-header .name {
+    font-weight: bold;
+    font-size: 50px;
+    margin-right: 10px;
+}
+.review-header .time {
+    color: #888;
+    font-size: 30px;
+}
+.review-body {
+    margin-top: 10px;
+    font-size: 30px;
+}
+.stars {
+    color: #f39c12;
+}
+
+@keyframes multiGlow {
+    0% {
+        border-color: black;
+        box-shadow: 0 0 5px black;
+    }
+    50% {
+        border-color: black;
+        box-shadow: 0 0 30px black;
+    }
+    100% {
+        border-color: black;
+        box-shadow: 0 0 5px black;
+    }
+}
+
+footer{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../image/footer.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 7% 0 3% 0;
+    margin-top: 5%;
+}
+
+footer h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+footer p{
+    font-size: 30px;
+}

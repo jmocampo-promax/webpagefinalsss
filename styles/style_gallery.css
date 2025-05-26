@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/gallery.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 50px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.main{
+    max-width: 1500px;
+    margin: auto;
+    background: black;
+}
+
+.logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.box{
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    margin-top: 15%;
+    padding: 5% 0 3% 0;
+}
+
+
+.title h1{
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.filter-btn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.filter-btn.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.filter-btn:hover{
+    background-color: #007bff;
+    color: #fff;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-item img {
+    height: 400px;
+    width: 400px;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+footer{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../image/footer.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 7% 0 3% 0;
+    margin-top: 5%;
+}
+
+footer h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+footer p{
+    font-size: 30px;
+}

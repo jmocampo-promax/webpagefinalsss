@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/about.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.title{
+    width: 1400px;
+    height: 700px;
+    background-color: transparent;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    margin-top: 10%;
+    padding: 5% 0 3% 0;
+}
+
+.title h1{
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+}
+
+.title p{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    padding: 7% 0 3% 0;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.main{
+    max-width: 1500px;
+    margin: auto;
+    background: black;
+}
+
+.logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.sec1{
+    padding: 5% 10%;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec1 .content{
+    width: 100%;
+    max-width: 1200px;
+    min-width: 500px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sec1 .content h1{
+    font-size: 50px;
+}
+
+.sec1 .content p{
+    font-size: 30px;
+    line-height: 1.6em;
+    color: rgb(92,92,92);
+    margin-top: 3%;
+}
+
+.profile-container {
+    max-width: 1200px;
+    margin-top: 20%;
+    padding: 30px 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 10%;
+}
+
+.profile-container img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+}
+
+.profile-container h1 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.profile-container h2 {
+    font-size: 30px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.profile-container .links {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.profile-container .links a {
+    color: #0073e6;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.profile-container .links a:hover {
+    text-decoration: underline;
+}
+
+.profile-container p {
+    font-size: 30px;
+    color: #333;
+    line-height: 1.5;
+    text-align: left;
+}
+
+
+.gallery-btn{
+    padding: 30px 35px;
+    background-color: #900C3F;
+    border-radius: 30px;
+    transition: all 0.3s;
+    color: antiquewhite;
+    display: inline-block;
+}
+
+.gallery-btn:hover{
+    background-color: #C70039;
+}
+
+.gallery-contact .gallery-btn{
+    padding: 10px 30px;
+    font-size: 40px;
+    min-width: 50px;
+    margin-top: 2%;
+}
+
+.contact-btn{
+    padding: 40px 50px;
+    background-color: #900C3F;
+    border-radius: 30px;
+    transition: all 0.3s;
+    color: antiquewhite;
+    display: inline-block;
+}
+
+.contact-btn:hover{
+    background-color: #C70039;
+}
+
+.gallery-contact .contact-btn a{
+    color: white;
+}
+
+.gallery-contact .contact-btn{
+    padding: 20px 30px;
+    font-size: 40px;
+    min-width: 50px;
+}
+
+.profile-container1 {
+    max-width: 1200px;
+    margin-top: 3%;
+    padding: 30px 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 10%;
+}
+
+.profile-container1 img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+}
+
+.profile-container1 h1 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.profile-container1 h2 {
+    font-size: 30px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.profile-container1 .links {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.profile-container1 .links a {
+    color: #0073e6;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.profile-container1 .links a:hover {
+    text-decoration: underline;
+}
+
+.profile-container1 p {
+    font-size: 30px;
+    color: #333;
+    line-height: 1.5;
+    text-align: left;
+}
+
+
+footer{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../image/footer.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 7% 0 3% 0;
+    margin-top: 5%;
+}
+
+footer h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+footer p{
+    font-size: 30px;
+}

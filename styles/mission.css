@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/bgIndex.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 50px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.main{
+    max-width: 1500px;
+    margin: auto;
+    background: black;
+}
+
+.logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.box{
+    width: 1200px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    margin-top: 15%;
+    padding: 5% 0 3% 0;
+}
+
+
+.title h1{
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin-left: 13%;
+}
+
+@keyframes glowing {
+    0% {
+        border-color: red;
+        box-shadow: 0 0 5px red;
+    }
+    50% {
+        border-color: red;
+        box-shadow: 0 0 40px red;
+    }
+    100% {
+        border-color: red;
+        box-shadow: 0 0 5px red;
+    }
+}
+
+.box1 {
+    background-color: #222222;
+    color: #fff;
+    padding: 50px 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    margin-top: 5%;
+    border: 5px solid transparent;
+    animation: glowing 1.5s infinite;
+    margin-bottom: 5%;
+}
+
+.box1 h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.box1 p {
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+.box2 {
+    background-color: #222222;
+    color: #fff;
+    padding: 30px 50px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    border: 5px solid transparent;
+    animation: glowing 1.5s infinite;
+}
+
+.box2 h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.box2 p {
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+footer{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../image/footer.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 7% 0 3% 0;
+    margin-top: 5%;
+}
+
+footer h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+footer p{
+    font-size: 30px;
+}
